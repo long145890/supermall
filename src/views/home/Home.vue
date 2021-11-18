@@ -140,6 +140,7 @@
   }
 
   .tab-control {
+    /* 当位置未达到设置的top时，默认static,到达设置的top时，变成fixed */
     position: sticky;
     top: 44px;
     z-index: 9;

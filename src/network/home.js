@@ -2,13 +2,13 @@ import {request} from "./request";
 
 export function getHomeMultidata() {
   return request({
-    url: '/home/multidata'
+    url: 'http://123.207.32.32:8000/home/multidata'
   })
 }
 
 export function getHomeGoods(type, page) {
   return request({
-    url: '/home/data',
+    url: 'https://www.fastmock.site/mock/cb2fd482f6efb21cb367ab82845a07b7/mogujie/home/data',
     params: {
       type,
       page
